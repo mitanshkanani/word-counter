@@ -20,7 +20,7 @@ function calculation(){
         var p3=document.getElementById("part3")
         div=p3.querySelector("div")
         div.innerHTML=`
-        <p>The number of words are: ${array1.length-1} </p>
+        <p>The number of words are: ${array1.length} </p>
         <p>${calcu}</p>
         `
     }
