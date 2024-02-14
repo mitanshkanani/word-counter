@@ -7,6 +7,10 @@ function calculation(){
     const calcu=main1.value;
     let array0=calcu.trimStart();
     let array1=array0.split(/[\s,.\n]+/)
+    let array2
+    if (array1[array1.length-1]==="") {
+        array2=array1.pop()
+    }
     console.log(array1)
     if(array1[0]=="" || array1[0]=="\n"){
         var p3=document.getElementById("part3")
