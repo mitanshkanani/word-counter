@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(67, 17, 17);
+    color: aliceblue;
+}
+pre{
+    color: rgb(214, 178, 135);
+}
+
+textarea {
+    resize: none; 
+    border: 1px solid #ffffff; 
+    width: 90%;
+    background-color: rgb(46, 37, 37);
+    color: aliceblue;
+  }
+input[type="text"] {
+    height: inherit;
+    width: inherit;
+    }
+.container2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#part3{
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
